@@ -33,7 +33,7 @@ const router = createBrowserRouter([
                         element: <ToDoList/>
                     },
                     {
-                        path: "/RMCharacter",
+                        path: "/",
                         element: <RMCharacter/>
                     },
                     {
