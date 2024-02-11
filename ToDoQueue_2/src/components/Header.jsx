@@ -19,7 +19,7 @@ const Header =()=> {
             
             <div className='Logo'><h1 className='Title' id="DoTo">Do To Queue </h1></div>
           <div className='Logo' id= "rick"> 
-            <a href="/RMCharacter" target ="blank">
+            <a href="/" target ="blank">
              <img src = {rick}className='rick' alt = "rick" ></img> </a>
              
            <p className='Title5'> Rick and morty API </p>
