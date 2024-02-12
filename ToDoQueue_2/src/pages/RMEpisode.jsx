@@ -34,6 +34,23 @@ const RMEpisode = () => {
 
   return (
     <div>
+      <div className='ButtonsEntity'>
+        <a href="/RMEpisode " target = "blank">
+        <button className='btn-API'> 
+        EPISODES
+        </button>
+        </a>
+        <a href="/RMLocation " target = "blank">
+        <button className='btn-API'> 
+        LOCATIONS
+        </button>
+        </a>
+        <a href="/RMCharacter " target = "blank">
+        <button className='btn-API'> 
+        CHARACTER
+        </button>
+        </a>
+        </div>
       <button className="btn-API" onClick={returnToPageOne}>
         Return to page one
       </button>
@@ -43,7 +60,7 @@ const RMEpisode = () => {
       <button className="btn-API" onClick={nextPage}>
         Next Page
       </button>
-      <h1 className="headerEpisode"> EPISODES </h1>
+      <h1 className="Text3"> EPISODES </h1>
       <div className="Entity">
         <ul className="episodeCard">
           {data?.results?.map((episode) => (
