@@ -65,7 +65,7 @@ const RMCharacter = () => {
         LOCATIONS
         </button>
         </a>
-        <a href="/RMCharacter " target = "blank">
+        <a href="/ " target = "blank">
         <button className='btn-API'> 
         CHARACTER
         </button>

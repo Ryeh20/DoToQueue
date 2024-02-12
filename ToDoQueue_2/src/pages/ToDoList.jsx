@@ -8,7 +8,7 @@ const ToDoList = () => {
   return (
     <div className='container4'> 
     <div className="ToDoList">
-      <div className='xd'> 
+      <div className='Format'> 
      
           <p className='Text'> To Do List </p>
           <input type="text" id ="tarea"></input>
