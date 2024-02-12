@@ -12,8 +12,8 @@ const ToDoList = () => {
      
           <p className='Text'> To Do List </p>
           <input type="text" id ="tarea"></input>
-          <button className='btn-add' id = "add"> Añadir </button>
-          <h3 className='Text2'> Tareas  pendientes: ‎ ‎ ‎ <span id ="cantidad"> 0 </span></h3>
+          <button className='btn-add' id = "add"> Add </button>
+          <h3 className='Text2'> Pending Tasks: ‎ ‎ ‎ <span id ="cantidad"> 0 </span></h3>
 
           <ul id = "listado"> </ul>
           </div>
