@@ -53,7 +53,24 @@ const RMCharacter = () => {
   if (error) return <div>Error: {error}</div>;
 
   return (
-    <div>
+    <div className='general'>
+      <div className='ButtonsEntity'>
+        <a href="/RMEpisode " target = "blank">
+        <button className='btn-API'> 
+        EPISODES
+        </button>
+        </a>
+        <a href="/RMLocation " target = "blank">
+        <button className='btn-API'> 
+        LOCATIONS
+        </button>
+        </a>
+        <a href="/RMCharacter " target = "blank">
+        <button className='btn-API'> 
+        CHARACTER
+        </button>
+        </a>
+        </div>
       <div className="Buttons">
         <button className="btn-API" onClick={returnToPageOne}>
           Return to page one
@@ -66,19 +83,8 @@ const RMCharacter = () => {
         </button>
       </div>
       <div> 
-      <div className='ButtonsEntity'>
-        <a href="/RMEpisode " target = "blank">
-        <button className='EntityButton'> 
-        EPISODES
-        </button>
-        </a>
-        <a href="/RMLocation " target = "blank">
-        <button className='EntityButton'> 
-        LOCATIONS
-        </button>
-        </a>
-        </div>
-        <h1 className="headerCharacter"> CHARACTERS </h1>
+      
+        <h1 className="Text3"> CHARACTERS </h1>
         <div className="Entity">
           <ul className='characterCard'>
             {data?.results?.map((character) => (

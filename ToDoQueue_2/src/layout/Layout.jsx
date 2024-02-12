@@ -1,11 +1,7 @@
-// Librerias de React
 import { Outlet, useNavigation } from "react-router-dom";
-// importar estilos
 import './Layout.sass'
-// Componentes son los espacios que tiene cada página
 import Footer from "../components/Footer"
 import Header from "../components/Header"
-//import ToDoList from "../pages/ToDoList";
 
 const Layout = () => {
   const navigation = useNavigation();
